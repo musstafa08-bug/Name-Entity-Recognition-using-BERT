@@ -38,6 +38,10 @@ Here we will be using  Anaconda Python 3.6 , Pytorch 1.4 with GPU support CUDA 1
 3. Install the necessary packages from requirements.txt file using the command         
 pip install -r requirements.txt
 
+## Workflow Diagram
+![workflow](workflow_dig.jpg)
+
+
 ## IMPLEMENTATION
 ### 1. Project Directory
 
