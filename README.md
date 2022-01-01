@@ -39,28 +39,27 @@ Here we will be using  Anaconda Python 3.6 , Pytorch 1.4 with GPU support CUDA 1
 pip install -r requirements.txt
 
 ## Workflow Diagram
-![workflow](workflow_dig.jpg)
-
+![workflow_dig](https://user-images.githubusercontent.com/64519071/147853172-27428bba-5187-46f8-baa7-664bc9c12b56.jpg)
 
 ## IMPLEMENTATION
 ### 1. Project Directory
-
+![project_directory](https://user-images.githubusercontent.com/64519071/147853181-12d37727-d6a2-4236-a2e2-c22f85394236.png)
 
 This above picture shows the folder structure of the project. Here data folder consists of data and out_base folder consists of the BERT models.
 
 ### 2. requirements.txt	
-
+![requirements](https://user-images.githubusercontent.com/64519071/147853183-42a43875-45f4-4b04-af68-811da631c780.png)
 
 requirements.txt file consists of all the packages that we need to run with project.
 
 ### 3. bert.py
-
+![bertpy](https://user-images.githubusercontent.com/64519071/147853189-ce039efc-b57d-4d47-8904-165c4fa20e6f.png)
 
 This is the most important file in this project which we will be using for training and prediction.
 
 
 ### 4. clientApp.py
-
+![clientApp](https://user-images.githubusercontent.com/64519071/147853190-90356e67-189e-4578-a260-8a2fa7559245.png)
 This is the flask server file and the entry point of application.
 
 
@@ -69,7 +68,7 @@ To do the test testing we need to run the clientApp.py and after that web server
 
 
 Enter the Text and click on Predict button.
-
+![bert](https://user-images.githubusercontent.com/64519071/147853228-dec90ab0-988b-4095-9384-ca56f66e6a8a.png)
 
 Predictions will be shown in the result box. 
-
+![Results](https://user-images.githubusercontent.com/64519071/147853230-92a88455-dc01-4854-ae60-4d9e49e6db79.png)
